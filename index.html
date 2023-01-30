@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+<header>
+  <title>Aadil's Portfolio</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</header>
+
+<body>
+  <div class="header">
+    <h1>Hi, I'm Aadil</h1>
+    <div class="nav">
+      <a href="#AbtMe">About Me</a> | <a href="https://github.com/axmazhar">GitHub</a>
+    </div>
+  </div>
+  <h2>My Projects</h2>
+
+  <h3><a href="https://py3.codeskulptor.org/#user307_Cr6infTyxd_2.py">Parametric & Tangent</a></h3>
+  <img src="cs.parametric.gif" width="40%" alt="parametric">
+
+  <p>This is a project I created using Python. As shown in the GIF above, the project outlines the shape of a chosen parametric equation by plotting multiple dots and tracing the positions where these dots appear.
+Along with this, both the tangent and normal lines of each dot's location can be seen during the outlining process as well.</p>
+
+  <h2 id="professional-experience">Professional Experience</h2> <br>
+  <h3>FortisBC<h5>11/2022 - 12/2022</h5></h3>
+  <p>During my time at FortisBC, I was responsible for reviewing pipeline blueprints and permits to ensure compliance with regulations and industry standards. I also used electronic modeling tools to simulate and plan pipeline routes, as well as providing support in gas labs and filling out paperwork for future pipeline projects. My role was critical in ensuring the safe and efficient operation of the company's pipelines, and I gained valuable experience in the natural gas and pipeline industry</p>
+
+  <h2 id="AbtMe">About Me</h2>
+  <p>I am a senior student at Fleetwood Park Secondary where I am a part of the school's co-op program. A program in which I hope to expand and polish my computer programming skills, along with furthering my knowledge of the programming world. Currently I only have experience with Python but am also exploring and learning the Java programming language as we speak.</p>
+
+  <h2 id="Contact Me">Contact Me</h2>
+
+
+    <form action="https://formspree.io/f/meqwezay" name="contactForm" onsubmit="return validateForm()" method="post">
+    <div class="form-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+ 
+
+
+  <br><br>
+  <a href="#" id="back-to-top-text">Back to Top</a>
+
+
+  <script>
+    function validateForm() {
+      var name = document.forms["contactForm"]["name"].value;
+      var email = document.forms["contactForm"]["email"].value;
+      var message = document.forms["contactForm"]["message"].value;
+      if (name == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      if (email == "") {
+        alert("Email must be filled out");
+        return false;
+      }
+      if (message == "") {
+        alert("Message must be filled out");
+        return false;
+      }
+    }
+  </script>
+
+</body>

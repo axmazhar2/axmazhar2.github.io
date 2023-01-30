@@ -1,0 +1,55 @@
+body {
+  background-color: #8AAAE5;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+.menu {
+  font-family: 'Raleway', sans-serif;
+}
+
+span {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+}
+
+#back-to-top-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+label, input, textarea {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
